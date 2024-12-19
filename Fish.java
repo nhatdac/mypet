@@ -20,7 +20,7 @@ public interface Swimmable {
         return month == Month.JUNE || month == Month.JULY || month == Month.AUGUST;
     }
 	public void surface() {
-	  System.out.println("Going up " + currentDepth + " feet.");
+	  System.out.println("Going up " + currentDepth + " feet!!!");
 	}
 
 }
