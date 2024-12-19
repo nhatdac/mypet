@@ -19,4 +19,8 @@ public interface Swimmable {
         Month month = LocalDate.now().getMonth();
         return month == Month.JUNE || month == Month.JULY || month == Month.AUGUST;
     }
+	public void surface() {
+	  System.out.println("Going up " + currentDepth + " feet.");
+	}
+
 }
